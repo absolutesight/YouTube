@@ -1,0 +1,13 @@
+{
+    "name": "qaddeeer/youtube",
+    "description": "THis project is for YouTube data feed.",
+    "require": {
+        "php": "5.4"
+    },
+    "authors": [
+        {
+            "name": "Qadeer Ahmad",
+            "email": "qadeer@najoomi.com"
+        }
+    ]
+}
