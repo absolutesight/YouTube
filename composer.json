@@ -1,13 +1,27 @@
 {
-    "name": "qaddeeer/youtube",
-    "description": "THis project is for YouTube data feed.",
-    "require": {
-        "php": "5.4"
-    },
-    "authors": [
-        {
-            "name": "Qadeer Ahmad",
-            "email": "qadeer@najoomi.com"
-        }
-    ]
+  "name": "absolutesight/youtube",
+  "description": "A YouTube package to handle YouTube API",
+  "keywords": [
+    "YouTube"
+  ],
+  "homepage": "https://github.com/qaddeeer/YouTube",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Qadeer Ahmad",
+      "email": "qadeer@absolutesight.com",
+      "homepage": "http://www.absolutesight.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AbsoluteSight\\YouTube\\": [
+        "src"
+      ]
+    }
+  }
 }
